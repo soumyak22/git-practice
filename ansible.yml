@@ -1,0 +1,11 @@
+---
+- name: create user
+  hosts: all
+  tasks:
+   - name: user creation
+     user:
+      name: ram
+      password: sita
+      uid: 12342
+      commit: "please help me"
+      
